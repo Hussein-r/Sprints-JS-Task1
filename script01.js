@@ -1,6 +1,6 @@
 document.querySelector("button").addEventListener("click", () => {
   const result =
-    parseInt(document.querySelector("#firstNum").value) +
-    parseInt(document.querySelector("#secondNum").value);
+    parseFloat(document.querySelector("#firstNum").value) +
+    parseFloat(document.querySelector("#secondNum").value);
   document.querySelector("#result").innerHTML = "result is " + result;
 });
